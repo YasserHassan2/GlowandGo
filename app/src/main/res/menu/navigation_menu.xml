@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_Top"
+        android:checkableBehavior="none">
+
+
+        <item android:id="@+id/nav_myAccount"
+            android:title="My Profile"></item>
+
+        <item android:id="@+id/nav_sellProject"
+            android:title="Sell Project"></item>
+
+        <item android:id="@+id/nav_viewDevelopers"
+            android:title="View Developers"></item>
+
+        <item android:id="@+id/nav_viewProjects"
+            android:title="View Projects"></item>
+
+        <item android:id="@+id/nav_rateApp"
+            android:title="Rate App"></item>
+
+        <item android:id="@+id/nav_shareApp"
+            android:title="Share with friends"></item>
+
+        <item android:id="@+id/nav_contactWithUs"
+            android:title="Contact with Us"></item>
+
+
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item android:id="@+id/nav_logout"
+            android:title="log out"></item>
+
+
+    </group>
+</menu>
